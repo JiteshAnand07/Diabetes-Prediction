@@ -43,7 +43,7 @@ for hba1c in [5.5, 5.8, 6.0, 6.2, 6.4, 6.5, 6.8]:
         if 0.20 <= proba <= 0.75:  # show boundary zone
             print(f"{hba1c:>8.1f} {glucose:>9} {proba*100:>12.1f}%  {label:>10}")
 
-print("Full probability map:")
+print("Full Probability Map:")
 print(f"{'HbA1c':>8} {'Glucose':>9} {'Probability':>13}")
 print("-" * 35)
 for hba1c in [4.5, 5.0, 5.5, 6.0, 6.5, 6.8, 7.0, 7.5, 8.0]:
