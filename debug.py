@@ -26,7 +26,7 @@ def predict(data):
     return proba, label
 
 # Scan HbA1c and glucose combinations to find medium risk zone
-print("Scanning for MEDIUM RISK zone (30–60%)...")
+print("Scanning for MEDIUM RISK Zone (30–60%)...")
 print(f"{'HbA1c':>8} {'Glucose':>9} {'Probability':>13} {'Risk':>10}")
 print("-" * 45)
 
